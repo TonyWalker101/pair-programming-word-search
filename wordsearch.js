@@ -1,4 +1,5 @@
 const wordSearch = (letters, word) => {
+
   //checks word parameter amongts horizontal letters
 
   const horizontalJoin = letters.map(ls => ls.join(''));
@@ -29,3 +30,5 @@ const wordSearch = (letters, word) => {
 };
 
 module.exports = wordSearch;
+
+// Pair programming with @cherieodu (GitHub)
